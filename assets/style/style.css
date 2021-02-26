@@ -1,0 +1,307 @@
+/* Stylesheet WorldWide Bud Report
+Author: Dianna Sutton Brown
+Date: February 25, 2021 */
+
+.main {
+    width: 80%;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+/* Header */
+
+.headerBanner {
+    background-color: white;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.logoHeader {
+    padding: 10px 0px 5px 20px;
+}
+
+.headerBanner h3 {
+    color: black;
+    font-family: 'RocknRoll One', sans-serif;
+    padding: 2px 0px 2px 100px;
+}
+
+.headerBanner img {
+    padding-right: 20px;
+}
+
+/* Navbar CSS */
+nav {
+    background-color: black;
+    height: 150px;
+}
+
+nav ul {
+    text-decoration: none;
+}
+
+.nav {
+    margin: 0px;
+    padding: 25px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.nav a {
+    width: 15em;
+    text-align: center;
+    display: block;
+    border: 1px dashed #000;
+    border-bottom: none;
+    padding: 5px 15px 5px 15px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav li {
+    display: inline;
+    margin-right: -5px;
+    float: left;
+    width: 25%;
+   }
+
+.mainNav a {
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 5px 7px 30px;
+    display: block;
+    background-color: black;
+    background-position: 0 2px;
+    color: white;
+}
+
+.mainNav a:hover {
+    font-weight: bold;
+    color: #37a233;
+    background-color: transparent;
+    text-decoration: underline;
+    background-position: 3px 50%;
+    text-decoration: none;
+}
+
+.home .homeLink,
+.subscribe .subscribeLink,
+.podcasts .podcastsLink,
+.about .aboutLink {
+    border-bottom: 3px solid #e94447;
+    color: #f3f354;
+    background-position: 97% 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+/* Mobile Nav */
+.mobileNav {
+    display: none;
+}
+
+.nav,
+.container,
+.footer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.nav {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+/* .nav a {
+    width: 33%;
+} */
+
+.container div {
+    -webkit-flex: 1 600px;
+    flex: 1 250px;
+}
+
+/* End Nav */
+
+.recentPodcast {
+    background-color: black;
+    height: 700px;
+}
+
+/* Home page */
+.mainHome div:nth-of-type(1n+2) {
+    display: -webkit-flex;
+    margin-left: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 50px;
+}
+
+.mainHome h2 {
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 0px;
+}
+
+.newPodcast {
+    text-align: center;
+    padding-left: 25px;
+    margin-top: 0px; 
+    background-color: black;
+    height: 700px;
+}
+
+.newPodcast h2 {
+    color: white;
+}
+
+.newPodcast h2 {
+    padding-top: 25px;
+}
+
+.recentPodcast {
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 0px; 
+    background-color: white;
+    height: 700px;
+}
+
+.recentPodcast h2 {
+    padding-top: 25px;
+}
+
+.subscribe {
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 0px; 
+    background-color: white;
+    height: 700px;
+}
+
+.subscribe h2 {
+    padding-top: 25px;
+}
+
+.container {
+    height: 700px;
+}
+
+#mainDivBlack {
+    height: 20px;
+    width: 250px;
+    margin-left: 25px;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+#mainDivWhite {
+    height: 20px;
+    width: 250px;
+    margin-left: 25px;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+
+
+/* Google Fonts */
+/* font-family: 'RocknRoll One', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* @media (max-width: 500px) {
+
+    .nav {
+        display: none;
+    }
+
+    .mobileNav a {
+        color: #000;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 7px 5px 7px 30px;
+        display: inline-block;
+        background-color: black;
+        background-position: 0 2px;
+        color: white;
+    }
+
+    .home .homeLink,
+    .submit .submitLink,
+    .upcoming .upcomingLink,
+    .worldwide .worldwideLink,
+    .about .aboutLink {
+        border-bottom: 3px solid #e94447;
+        color: #f3f354;
+        background-position: 97% 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-weight: bold;
+    }
+
+    .mainNav a {
+        color: #000;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 7px 5px 7px 30px;
+        display: block;
+        background-color: black;
+        background-position: 0 2px;
+        color: white;
+    }
+
+    .mainNav a:hover {
+        font-weight: bold;
+        color: #37a233;
+        background-color: transparent;
+        text-decoration: underline;
+        background-position: 3px 50%;
+        text-decoration: none;
+    }
+
+    .nav {
+        margin: 0px;
+        padding: 25px;
+        list-style: none;
+        border-bottom: 3px solid #41a441;
+        overflow: hidden;
+    }
+
+    .nav a {
+        width: 15em;
+        text-align: center;
+        display: block;
+        border: 1px dashed #000;
+        border-bottom: none;
+        padding: 5px 15px 5px 15px;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .nav li {
+        display: inline;
+        margin-right: -5px;
+        float: left;
+        width: 20%;
+    }
+
+    nav ul {
+        text-decoration: none;
+    }
+
+
+} */
