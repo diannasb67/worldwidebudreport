@@ -9,7 +9,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./assets/style/reset.css">
     <link rel="stylesheet" href="./assets/style/style.css">
- 
+
 
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/css/uikit.min.css" />
@@ -24,6 +24,9 @@
     <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Francois+One&display=swap" rel="stylesheet">
 
     <title>World Wide Bud Report</title>
 
@@ -37,18 +40,19 @@
         <!-- <h3>Worldwide Bud Report Home Page</h3> -->
     </div>
 
-   <!-- Navbar -->
-   <nav class="navnav">
-    <ul class="mainNav nav">
-        <li><a href="index.html" class="homeLink">Home</a></li>
-        <li><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
-        <li><a href="about.html" class="aboutLink">About</a></li>
-        <li><a href="subscribe.html" class="subscribeLnk">Subscribe</a></li>
-    </ul>
-</nav>
+    <!-- Navbar -->
+    <nav class="navnav">
+        <ul class="mainNav nav">
+            <li><a href="index.html" class="homeLink">Home</a></li>
+            <li><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
+            <li><a href="about.html" class="aboutLink">About</a></li>
+            <li><a href="subscribe.html" class="subscribeLnk">Subscribe</a></li>
+        </ul>
+    </nav>
     <!-- Mobile Nav -->
     <div class="mobileNav">
-        <span class="uk-margin-small-right uk-button uk-button-secondary uk-margin-small-right area" type="button" uk-toggle="target: #offcanvas-nav-primary" uk-icon="icon: menu; ratio: 2"></span>
+        <span class="uk-margin-small-right uk-button uk-button-secondary uk-margin-small-right area uk-align-right" style="color:white; background-color: black;": type="button"
+            uk-toggle="target: #offcanvas-nav-primary" uk-icon="icon: menu; ratio: 2"></span>
         <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
             <div class="uk-offcanvas-bar uk-flex uk-flex-column">
                 <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
@@ -69,8 +73,10 @@
         </div>
 
 
-        <button class="uk-button uk-button-default uk-margin-bottom" type="button" uk-toggle="target: +">Watch
-            Podcast</button>
+        <button class="uk-button uk-button-default uk-margin-bottom btn" type="button" uk-toggle="target: +">
+            <p class="btn">Watch
+                Podcast</p>
+        </button>
 
         <iframe src="https://www.youtube.com/embed/_ILRnu7wWZo" width="800" height="500" frameborder="0" allowfullscreen
             uk-responsive uk-video="automute: true"></iframe>

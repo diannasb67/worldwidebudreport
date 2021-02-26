@@ -213,11 +213,20 @@ nav ul {
     border-bottom: 2px solid black;
 }
 
+.btn {
+    color: white;
+    padding-top: 10px;
+    font-family: 'Francois One', sans-serif;
+}
+
 
 
 /* Google Fonts */
 /* font-family: 'RocknRoll One', sans-serif; */
 /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'DM Serif Display', serif; */
+/* font-family: 'Francois One', sans-serif; */
+
 
 /* Mobile Responsive for tablet devices */
 @media (min-width:769px) and (max-width:1124px) {
@@ -228,11 +237,6 @@ nav ul {
         width: 100%;
         padding-bottom: 10px;
     }
-
-    .mobileNav span {
-        float: right;
-    }
-
     .mobileNav a {
         color: #000;
         font-size: 20px;
@@ -253,8 +257,8 @@ nav ul {
         border-bottom: 3px solid #e94447;
         color: #f3f354;
         background-position: 97% 100%;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 5px;
+        padding-left: 5px;
         font-weight: bold;
     }
 
@@ -265,7 +269,6 @@ nav ul {
         text-decoration: none;
         padding: 7px 5px 7px 30px;
         display: block;
-        background-color: black;
         background-position: 0 2px;
         color: white;
     }
@@ -328,9 +331,9 @@ nav ul {
         padding-bottom: 10px;
     }
 
-    .mobileNav span {
+    /* .mobileNav span {
         float: right;
-    }
+    } */
 
     .mobileNav a {
         color: #000;
@@ -364,7 +367,7 @@ nav ul {
         text-decoration: none;
         padding: 7px 5px 7px 30px;
         display: block;
-        background-color: black;
+        /* background-color: black; */
         background-position: 0 2px;
         color: white;
     }
@@ -427,10 +430,10 @@ nav ul {
         width: 100%;
         padding-bottom: 10px;
     }
-
+/* 
     .mobileNav span {
         float: right;
-    }
+    } */
 
     .mobileNav a {
         color: #000;
@@ -439,7 +442,7 @@ nav ul {
         text-decoration: none;
         padding: 7px 5px 7px 30px;
         display: inline-block;
-        background-color: black;
+        /* background-color: black; */
         background-position: 0 2px;
         color: white;
     }
