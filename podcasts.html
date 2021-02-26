@@ -16,6 +16,7 @@
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,33 +30,35 @@
 
 <body class="podcasts">
    
-         <!-- Header banner -->
-    <div class="headerBanner mainHome">
+       <!-- Header banner -->
+       <div class="headerBanner contain1">
         <img src="assets/images/logo4.jpg" alt="worldwide bud report" class="logoHeader">
         <!-- <h3>Worldwide Bud Report Home Page</h3> -->
     </div>
 
- 
    <!-- Navbar -->
    <nav class="navnav">
     <ul class="mainNav nav">
         <li><a href="index.html" class="homeLink">Home</a></li>
         <li><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
         <li><a href="about.html" class="aboutLink">About</a></li>
-        <li><a href="#subscribe" class="subscribeLnk">Subscribe</a></li>
+        <li><a href="subscribe.html" class="subscribeLnk">Subscribe</a></li>
     </ul>
 </nav>
-
-<!-- Mobile Nav -->
-<nav class="mobileNav">
-    <ul class="mainNav nav">
-        <li><a href="index.html" class="homeLink">Home</a></li>
-        <li><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
-        <li><a href="about.html" class="aboutLink">About</a></li>
-        <li><a href="#subscribe" class="subscribe">Subscribe</a></li>
-    </ul>
-</nav>
-
+    <!-- Mobile Nav -->
+    <div class="mobileNav">
+        <span class="uk-margin-small-right uk-button uk-button-secondary uk-margin-small-right area" type="button" uk-toggle="target: #offcanvas-nav-primary" uk-icon="icon: menu; ratio: 2"></span>
+        <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                    <li><a href="index.html" class="homeLink">Home</a></li>
+                    <li class="uk-active"><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
+                    <li class="uk-active"><a href="about.html" class="aboutLink">About</a></li>
+                    <li class="uk-active"><a href="subscribe.html" class="subscribeLnk">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 <div class="container">
     </div>
 
