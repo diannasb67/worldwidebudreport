@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/style/reset.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Francois+One&display=swap"
+        rel="stylesheet">
+
+    <title>World Wide Bud Report</title>
+
+</head>
+
+<body class="subscribe">
+    <!-- Header banner -->
+    <div class="headerBanner contain1">
+        <img src="assets/images/cityscape.jpg" alt="worldwide bud report" class="logoHeader">
+        <h2 class="wwb" style="text-align: center;">Worldwide Bud Report</h2>
+
+        <!-- <h3>Worldwide Bud Report Home Page</h3> -->
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navnav">
+        <ul class="mainNav nav">
+            <li><a href="index.html" class="homeLink">Home</a></li>
+            <li><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
+            <li><a href="about.html" class="aboutLink">About</a></li>
+            <li><a href="subscribe.html" class="">Subscribe</a></li>
+        </ul>
+    </nav>
+    <!-- Mobile Nav -->
+    <div class="mobileNav">
+        <span class="uk-margin-small-right uk-button uk-button-secondary uk-margin-small-right area" type="button"
+            uk-toggle="target: #offcanvas-nav-primary" uk-icon="icon: menu; ratio: 2"></span>
+        <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                    <li><a href="index.html" class="homeLink">Home</a></li>
+                    <li class="uk-active"><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
+                    <li class="uk-active"><a href="about.html" class="aboutLink">About</a></li>
+                    <li class="uk-active"><a href="subscribe.html" class="subscribeLnk">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+</body>
+
+<div class="forms">
+    <h2>Subscribe</h2>
+    <form>
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+        </div>
+      </form>
+    <form>
+        <div class="form-group">
+          <label for="formControlRange">Example Range input</label>
+          <input type="range" class="form-control-range" id="formControlRange">
+        </div>
+      </form>
+<form>
+    <h2>Profile</h2>
+    <div class="form-row">
+      <div class="col-md-4 mb-3">
+        <label for="validationServer01">First name</label>
+        <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationServer02">Last name</label>
+        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationServerUsername">Username</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+          </div>
+          <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer03">City</label>
+        <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+        <div class="invalid-feedback">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationServer04">State</label>
+        <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+        <div class="invalid-feedback">
+          Please provide a valid state.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationServer05">Zip</label>
+        <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+        <div class="invalid-feedback">
+          Please provide a valid zip.
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+        <label class="form-check-label" for="invalidCheck3">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </form>
+</div>
+<footer class="uk-sticky footerDiv">
+    Worldwide Bud Report &copy 2021
+
+</footer>
+
+</html>

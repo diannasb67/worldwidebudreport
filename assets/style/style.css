@@ -12,7 +12,6 @@ img {
 }
 
 /* Header */
-
 .headerBanner {
     background-color: white;
     height: 300px;
@@ -23,17 +22,6 @@ img {
     font-weight: bold;
     font-family: 'Francois One', sans-serif;
 }
-
-
-
-/* Google Fonts */
-/* font-family: 'RocknRoll One', sans-serif; */
-/* font-family: 'Poppins', sans-serif; */
-/* font-family: 'DM Serif Display', serif; */
-/* font-family: 'Francois One', sans-serif; */
-
-
-
 .logoHeader {
     padding: 10px 0px 5px 20px;
 }
@@ -51,7 +39,11 @@ img {
 /* Navbar CSS */
 nav {
     background-color: black;
-    height: 150px;
+    height: 175px;
+}
+
+.login {
+    float: right;
 }
 
 nav ul {
@@ -137,20 +129,9 @@ nav ul {
     justify-content: space-between;
 }
 
-/* .nav a {
-    width: 33%;
-} */
-
 .container div {
     -webkit-flex: 1 600px;
     flex: 1 250px;
-}
-
-/* End Nav */
-
-.recentPodcast {
-    background-color: black;
-    height: 700px;
 }
 
 /* Home page */
@@ -168,40 +149,10 @@ nav ul {
     margin-top: 0px;
 }
 
-.newPodcast {
+.iframe-container {
     text-align: center;
-    padding-left: 25px;
-    margin-top: 0px;
-    background-color: black;
-    height: 700px;
 }
-
-.newPodcast h2 {
-    color: white;
-    padding-top: 25px;
-}
-
-.recentPodcast {
-    text-align: left;
-    padding-left: 25px;
-    margin-top: 0px;
-    background-color: white;
-    height: 700px;
-}
-
-.recentPodcast h2 {
-    padding-top: 25px;
-}
-
-.subscribe {
-    text-align: left;
-    padding-left: 0px;
-    margin-top: 0px;
-    background-color: white;
-    height: 700px;
-}
-
-.subscribe h2 {
+h2 {
     padding-top: 25px;
 }
 
@@ -209,20 +160,32 @@ nav ul {
     height: 700px;
 }
 
-#mainDivBlack {
-    height: 10px;
-    width: 250px;
-    margin-left: 25px;
-    position: relative;
-    border-bottom: 2px solid black;
+.line {
+        height: 10px;
+        width: 250px;
+        margin-left: 25px;
+        position: relative;
+        border-bottom: 2px solid black;
 }
 
-#mainDivWhite {
-    height: 20px;
-    width: 250px;
-    margin-left: 25px;
-    position: relative;
-    border-bottom: 2px solid black;
+.divBlack {
+    text-align: left;
+    color: whitesmoke;
+    padding-left: 25px;
+    margin-top: 0px;
+    background-color: black;
+    height: 700px;
+}
+
+
+
+.divWhite {
+    text-align: left;
+    color: black;
+    padding-left: 25px;
+    margin-top: 0px;
+    background-color: white;
+    height: 700px;
 }
 
 .btn {
@@ -485,11 +448,6 @@ nav ul {
     }
 
 
-    .recentPodcast {
-        background-color: white;
-        height: 650px;
-    }
-
     .podcasts {
         height: 650px;
     }
@@ -621,20 +579,6 @@ nav ul {
 
     nav ul {
         text-decoration: none;
-    }
-
-    .newPodcast {
-        text-align: center;
-        padding-left: 25px;
-        margin-top: 0px;
-        background-color: black;
-        height: 500px;
-    }
-
-
-    .recentPodcast {
-        background-color: white;
-        height: 300px;
     }
 
     .forms h2 {
