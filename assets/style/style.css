@@ -15,7 +15,7 @@ img {
 
 .headerBanner {
     background-color: white;
-    height: 80px;
+    height: 250px;
     margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ img {
     padding: 10px 0px 5px 20px;
 }
 
-.headerBanner h3 {
+.headerBanner h3 {                       
     color: black;
     font-family: 'RocknRoll One', sans-serif;
     padding: 2px 0px 2px 100px;
@@ -180,7 +180,7 @@ nav ul {
 
 .subscribe {
     text-align: left;
-    /* padding-left: 25px; */
+    padding-left: 25px;
     margin-top: 0px; 
     background-color: white;
     height: 700px;
