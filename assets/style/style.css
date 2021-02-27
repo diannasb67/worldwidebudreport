@@ -14,14 +14,19 @@ img {
 /* Header */
 .headerBanner {
     background-color: white;
-    height: 300px;
+    height: 175px;
     margin: 0 auto;
+}
+
+.logo {
+    padding: 15px 0px 0px 40px
 }
 
 .wwb {
     font-weight: bold;
     font-family: 'Francois One', sans-serif;
 }
+
 .logoHeader {
     padding: 10px 0px 5px 20px;
 }
@@ -36,10 +41,14 @@ img {
     padding-right: 20px;
 }
 
+.title {
+    padding: 20px 0 0 50px;
+}
+
 /* Navbar CSS */
 nav {
     background-color: black;
-    height: 175px;
+    height: 100px;
 }
 
 .login {
@@ -74,7 +83,7 @@ nav ul {
     display: inline;
     margin-right: -5px;
     float: left;
-    width: 25%;
+    width: 20%;
 }
 
 .mainNav a {
@@ -101,8 +110,9 @@ nav ul {
 .home .homeLink,
 .subscribe .subscribeLink,
 .podcasts .podcastsLink,
+.profile .profileLink,
 .about .aboutLink {
-    border-bottom: 3px solid #e94447;
+    /* border-bottom: 3px solid #e94447; */
     color: #f3f354;
     background-position: 97% 100%;
     padding-right: 15px;
@@ -152,6 +162,7 @@ nav ul {
 .iframe-container {
     text-align: center;
 }
+
 h2 {
     padding-top: 25px;
 }
@@ -161,11 +172,11 @@ h2 {
 }
 
 .line {
-        height: 10px;
-        width: 250px;
-        margin-left: 25px;
-        position: relative;
-        border-bottom: 2px solid black;
+    height: 10px;
+    width: 250px;
+    margin-left: 25px;
+    position: relative;
+    border-bottom: 2px solid black;
 }
 
 .divBlack {
@@ -199,9 +210,11 @@ h2 {
     padding-bottom: 5%;
 }
 
+
 .forms {
     margin: 5% 30% 5% 30%
 }
+
 
 /* Footer CSS */
 
@@ -214,6 +227,42 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'RocknRoll One', sans-serif;
+}
+
+/* Social Media */
+
+
+.social {
+    text-align: right;
+    padding: 5px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
 }
 
 
@@ -293,7 +342,6 @@ h2 {
         margin: 0px;
         padding: 25px;
         list-style: none;
-        border-bottom: 3px solid #41a441;
         overflow: hidden;
     }
 
@@ -411,7 +459,6 @@ h2 {
         margin: 0px;
         padding: 25px;
         list-style: none;
-        border-bottom: 3px solid #41a441;
         overflow: hidden;
     }
 
@@ -464,8 +511,6 @@ h2 {
     .forms {
         margin: 2% 5% 2% 5%
     }
-
-
 }
 
 /* Mobile Responsive for small devices */
@@ -488,9 +533,6 @@ h2 {
         height: 5px;
     }
 
-    .nav {
-        display: none;
-    }
 
     .mobileNav {
         display: inline-block;
@@ -550,14 +592,10 @@ h2 {
     }
 
     .nav {
-        margin: 0px;
-        padding: 25px;
-        list-style: none;
-        border-bottom: 3px solid #41a441;
-        overflow: hidden;
+        display: none;
     }
 
-    .nav a {
+    /* .nav a {
         width: 15em;
         text-align: center;
         display: block;
@@ -568,14 +606,14 @@ h2 {
         text-decoration: none;
         color: white;
         font-family: 'Poppins', sans-serif;
-    }
+    } */
 
-    .nav li {
+    /* .nav li {
         display: inline;
         margin-right: -5px;
         float: left;
         width: 20%;
-    }
+    } */
 
     nav ul {
         text-decoration: none;
