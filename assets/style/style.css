@@ -163,9 +163,6 @@ nav ul {
 
 .newPodcast h2 {
     color: white;
-}
-
-.newPodcast h2 {
     padding-top: 25px;
 }
 
@@ -219,6 +216,46 @@ nav ul {
     font-family: 'Francois One', sans-serif;
 }
 
+/* Subscribe Table CSS */
+
+.headerSubscribe {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    border: 3px solid #000;
+    margin: 5% 30% 15% 30%
+}
+
+
+.table {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.submit {
+    padding: 15px;
+    margin: 10px 20px 0 0;
+    color: whitesmoke;
+    background-color: black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+/* Footer CSS */
+
+.footerDiv {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'RocknRoll One', sans-serif; 
+}
 
 
 /* Google Fonts */
@@ -231,12 +268,16 @@ nav ul {
 /* Mobile Responsive for tablet devices */
 @media (min-width:769px) and (max-width:1124px) {
 
-    .mobileNav {
+    /* .nav {
+        display: none;
+    } */
+
+    /* .mobileNav {
         display: inline-block;
         background-color: black;
         width: 100%;
         padding-bottom: 10px;
-    }
+    } */
     .mobileNav a {
         color: #000;
         font-size: 20px;
@@ -314,15 +355,20 @@ nav ul {
         text-decoration: none;
     }
 
-
+   
 }
 
 
 /* Mobile Responsive for medium devices */
 @media (min-width:481px) and (max-width:768px) {
-    /* .nav {
+
+    nav {
+        background-color: black;
+        height: 10px;
+    }
+    .nav {
         display: none;
-    } */
+    }
 
     .mobileNav {
         display: inline-block;
@@ -331,10 +377,6 @@ nav ul {
         padding-bottom: 10px;
     }
 
-    /* .mobileNav span {
-        float: right;
-    } */
-
     .mobileNav a {
         color: #000;
         font-size: 20px;
@@ -342,7 +384,6 @@ nav ul {
         text-decoration: none;
         padding: 7px 5px 7px 30px;
         display: inline-block;
-        background-color: black;
         background-position: 0 2px;
         color: white;
     }
@@ -413,12 +454,31 @@ nav ul {
         text-decoration: none;
     }
 
+    .newPodcast {
+        text-align: center;
+        padding-left: 25px;
+        margin-top: 0px; 
+        background-color: black;
+        height: 650px;
+    }
+
+
+    .recentPodcast {
+        background-color: white;
+        height: 650px;
+    }
+    
 
 }
 
 /* Mobile Responsive for small devices */
 
 @media (max-width: 480px) {
+
+    nav {
+        background-color: black;
+        height: 5px;
+    }
 
     .nav {
         display: none;
@@ -442,7 +502,6 @@ nav ul {
         text-decoration: none;
         padding: 7px 5px 7px 30px;
         display: inline-block;
-        /* background-color: black; */
         background-position: 0 2px;
         color: white;
     }
@@ -512,5 +571,20 @@ nav ul {
     nav ul {
         text-decoration: none;
     }
+
+    .newPodcast {
+        text-align: center;
+        padding-left: 25px;
+        margin-top: 0px; 
+        background-color: black;
+        height: 500px;
+    }
+
+    
+.recentPodcast {
+    background-color: black;
+    height: 500px;
+}
+
 }
 
