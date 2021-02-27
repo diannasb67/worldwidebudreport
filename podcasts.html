@@ -29,25 +29,28 @@
 </head>
 
 <body class="podcasts">
-   
-       <!-- Header banner -->
-       <div class="headerBanner contain1">
-        <img src="assets/images/logo4.jpg" alt="worldwide bud report" class="logoHeader">
+
+    <!-- Header banner -->
+    <div class="headerBanner contain1">
+        <img src="assets/images/cityscape.jpg" alt="worldwide bud report" class="logoHeader">
+        <h2 class="wwb" style="text-align: center;">Worldwide Bud Report</h2>
+
         <!-- <h3>Worldwide Bud Report Home Page</h3> -->
     </div>
 
-   <!-- Navbar -->
-   <nav class="navnav">
-    <ul class="mainNav nav">
-        <li><a href="index.html" class="homeLink">Home</a></li>
-        <li><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
-        <li><a href="about.html" class="aboutLink">About</a></li>
-        <li><a href="subscribe.html" class="subscribeLnk">Subscribe</a></li>
-    </ul>
-</nav>
+    <!-- Navbar -->
+    <nav class="navnav">
+        <ul class="mainNav nav">
+            <li><a href="index.html" class="homeLink">Home</a></li>
+            <li><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
+            <li><a href="about.html" class="aboutLink">About</a></li>
+            <li><a href="subscribe.html" class="subscribeLnk">Subscribe</a></li>
+        </ul>
+    </nav>
     <!-- Mobile Nav -->
     <div class="mobileNav">
-        <span class="uk-margin-small-right uk-button uk-button-secondary uk-margin-small-right area" type="button" uk-toggle="target: #offcanvas-nav-primary" uk-icon="icon: menu; ratio: 2"></span>
+        <span class="uk-margin-small-right uk-button uk-button-secondary uk-margin-small-right area" type="button"
+            uk-toggle="target: #offcanvas-nav-primary" uk-icon="icon: menu; ratio: 2"></span>
         <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
             <div class="uk-offcanvas-bar uk-flex uk-flex-column">
                 <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
@@ -59,13 +62,21 @@
             </div>
         </div>
     </div>
-<div class="container">
-    </div>
+
+    <div class="contain1 container recentPodcast" style="background-color: black">
+        <h2 style="color:white">Recent Podcasts</h2>
+        <div id="mainDivBlack">
+            <div class="contain1"></div>
+        </div>
 
 </body>
-<footer class="footerDiv">
+<footer class="uk-sticky footerDiv" uk-sticky="bottom: true">
     Worldwide Bud Report &copy 2021
 
 </footer>
+<script>
+    UIkit.sticky(element, options);
+</script>
+
 
 </html>
