@@ -38,7 +38,7 @@ img {
     padding: 10px 0px 5px 20px;
 }
 
-.headerBanner h3 {                       
+.headerBanner h3 {
     color: black;
     font-family: 'RocknRoll One', sans-serif;
     padding: 2px 0px 2px 100px;
@@ -83,7 +83,7 @@ nav ul {
     margin-right: -5px;
     float: left;
     width: 25%;
-   }
+}
 
 .mainNav a {
     color: #000;
@@ -171,7 +171,7 @@ nav ul {
 .newPodcast {
     text-align: center;
     padding-left: 25px;
-    margin-top: 0px; 
+    margin-top: 0px;
     background-color: black;
     height: 700px;
 }
@@ -184,7 +184,7 @@ nav ul {
 .recentPodcast {
     text-align: left;
     padding-left: 25px;
-    margin-top: 0px; 
+    margin-top: 0px;
     background-color: white;
     height: 700px;
 }
@@ -196,7 +196,7 @@ nav ul {
 .subscribe {
     text-align: left;
     padding-left: 0px;
-    margin-top: 0px; 
+    margin-top: 0px;
     background-color: white;
     height: 700px;
 }
@@ -232,31 +232,12 @@ nav ul {
 }
 
 /* Subscribe Table CSS */
-
-.headerSubscribe {
-    text-align: center;
+.forms h2 {
+    padding-bottom: 5%;
 }
 
-form {
-    text-align: center;
-    border: 3px solid #000;
-    margin: 5% 30% 15% 30%
-}
-
-
-.table {
-    padding: 10px;
-    margin-top: 10px;
-    margin-right: 20px;
-}
-
-.submit {
-    padding: 15px;
-    margin: 10px 20px 0 0;
-    color: whitesmoke;
-    background-color: black;
-    margin-bottom: 50px;
-    text-transform: uppercase;
+.forms {
+    margin: 5% 30% 5% 30%
 }
 
 /* Footer CSS */
@@ -269,7 +250,7 @@ form {
     padding: 50px;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'RocknRoll One', sans-serif; 
+    font-family: 'RocknRoll One', sans-serif;
 }
 
 
@@ -299,6 +280,7 @@ form {
         height: 150px;
         margin: 0 auto;
     }
+
     .mobileNav a {
         color: #000;
         font-size: 20px;
@@ -310,7 +292,7 @@ form {
         color: white;
     }
 
- 
+
     .home .homeLink,
     .submit .submitLink,
     .upcoming .upcomingLink,
@@ -375,11 +357,20 @@ form {
     nav ul {
         text-decoration: none;
     }
-    .responsive  {
-        width:100%;
+
+    .responsive {
+        width: 100%;
         height: auto;
-        }
-   
+    }
+
+    .forms h2 {
+        padding-bottom: 5%;
+    }
+
+    .forms {
+        margin: 5% 10% 5% 10%
+    }
+
 }
 
 
@@ -396,11 +387,12 @@ form {
         background-color: black;
         height: 10px;
     }
+
     .nav {
         display: none;
     }
 
-        .mobileNav {
+    .mobileNav {
         display: inline-block;
         background-color: black;
         width: 100%;
@@ -487,7 +479,7 @@ form {
     .newPodcast {
         text-align: center;
         padding-left: 25px;
-        margin-top: 0px; 
+        margin-top: 0px;
         background-color: black;
         height: 650px;
     }
@@ -501,11 +493,20 @@ form {
     .podcasts {
         height: 650px;
     }
-    
-    .responsive  {
-        width:100%;
+
+    .responsive {
+        width: 100%;
         height: auto;
-        }
+    }
+
+    .forms h2 {
+        padding-bottom: 5%;
+    }
+
+    .forms {
+        margin: 2% 5% 2% 5%
+    }
+
 
 }
 
@@ -519,10 +520,10 @@ form {
         margin: 0 auto;
     }
 
-    .responsive  {
-        width:100%;
+    .responsive {
+        width: 100%;
         height: auto;
-        }
+    }
 
     nav {
         background-color: black;
@@ -539,7 +540,8 @@ form {
         width: 100%;
         padding-bottom: 10px;
     }
-/* 
+
+    /* 
     .mobileNav span {
         float: right;
     } */
@@ -624,16 +626,24 @@ form {
     .newPodcast {
         text-align: center;
         padding-left: 25px;
-        margin-top: 0px; 
+        margin-top: 0px;
         background-color: black;
         height: 500px;
     }
 
-    
-.recentPodcast {
-    background-color: white;
-    height: 300px;
-}
+
+    .recentPodcast {
+        background-color: white;
+        height: 300px;
+    }
+
+    .forms h2 {
+        padding-bottom: 5%;
+    }
+
+    .forms {
+        margin: 2% 5% 2% 5%
+    }
+
 
 }
-
