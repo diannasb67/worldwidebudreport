@@ -515,7 +515,7 @@ form {
 
     .headerBanner {
         background-color: white;
-        height: 70px;
+        height: 100px;
         margin: 0 auto;
     }
 
@@ -631,8 +631,8 @@ form {
 
     
 .recentPodcast {
-    background-color: black;
-    height: 500px;
+    background-color: white;
+    height: 300px;
 }
 
 }
