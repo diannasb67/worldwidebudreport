@@ -48,46 +48,37 @@
 
 </head>
 
-<body class="home">
+<main class="home">
 
-   <div class="logo">
-       <!-- <img src="assets/images/logo4.jpg"> -->
-        <div class="social">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-youtube"></a>
+    <!-- Navbar -->
+
+    <nav class="navnav">
+        <ul class="mainNav nav">
+            <li><a href="index.html" class="homeLink">Home</a></li>
+            <li><a href="podcasts.html" class="podcastLink">Recent Podcast</a></li>
+            <li><a href="about.html" class="aboutLink">About</a></li>
+            <li><a href="subscribe.html" class="subscribeLink">Subscribe</a></li>
+            <li class="uk-active"><a href="profile.html" class="profileLink">Profile</a></li>
+        </ul>
+
+    </nav>
+    <!-- Mobile Nav -->
+    <div class="mobileNav">
+        <span class="uk-margin-small-right uk-button uk-button-secondary uk-margin-small-right area uk-align-right"
+            style="color:white; background-color: black;" : type="button" uk-toggle="target: #offcanvas-nav-primary"
+            uk-icon="icon: menu; ratio: 2"></span>
+        <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                    <li><a href="index.html" class="homeLink">Home</a></li>
+                    <li class="uk-active"><a href="podcasts.html" class="podcastLink">Recent Podcast</a></li>
+                    <li class="uk-active"><a href="about.html" class="aboutLink">About</a></li>
+                    <li class="uk-active"><a href="subscribe.html" class="subscribeLink">Subscribe</a></li>
+                    <li class="uk-active"><a href="profile.html" class="profileLink">Profile</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-
-   <!-- Navbar -->
-
-   <nav class="navnav">
-    <ul class="mainNav nav">
-        <li><a href="index.html" class="homeLink">Home</a></li>
-        <li><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
-        <li><a href="about.html" class="aboutLink">About</a></li>
-        <li><a href="subscribe.html" class="subscribeLink">Subscribe</a></li>
-        <li class="uk-active"><a href="profile.html" class="profileLink">Profile</a></li>
-    </ul>
-
-</nav>
-<!-- Mobile Nav -->
-<div class="mobileNav">
-    <span class="uk-margin-small-right uk-button uk-button-secondary uk-margin-small-right area uk-align-right"
-        style="color:white; background-color: black;" : type="button" uk-toggle="target: #offcanvas-nav-primary"
-        uk-icon="icon: menu; ratio: 2"></span>
-    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
-        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-                <li><a href="index.html" class="homeLink">Home</a></li>
-                <li class="uk-active"><a href="podcasts.html" class="podcastsLink">Recent Podcast</a></li>
-                <li class="uk-active"><a href="about.html" class="aboutLink">About</a></li>
-                <li class="uk-active"><a href="subscribe.html" class="subscribeLink">Subscribe</a></li>
-                <li class="uk-active"><a href="profile.html" class="profileLink">Profile</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 
     <!-- Header banner -->
     <div class="contain1">
@@ -111,64 +102,135 @@
 
 
     <!-- Recent Episodes -->
-    <div class="contain1 divWhite">
-        <h2>Recent Podcasts</h2>
-        <div class="line">
-            <div class="contain1"></div>
+    <div>
+        <div class="recentEp">
+            <h2>Recent Podcasts</h2>
+            <div class="line"></div>
+            <div class="card-deck float-left" style="padding:25px 10px 10px 25px;">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-black border-secondary">Date</div>
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Podcast</h5>
+                        <p class="card-text">Insert Podcast with Image</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary">Author:</div>
+                </div>
+            </div>
+
+            <div class="card-deck float-left" style="padding:25px 10px 10px 25px;">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-black border-secondary">Date</div>
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Podcast</h5>
+                        <p class="card-text">Insert Podcast with Image</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary">Author:</div>
+                </div>
+            </div>
+            <div class="card-deck float-left" style="padding:25px 10px 10px 25px;">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-black border-secondary">Date</div>
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Podcast</h5>
+                        <p class="card-text">Insert Podcast with Image</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary">Author:</div>
+                </div>
+            </div>
+            <div class="card-deck float-left" style="padding:25px 10px 10px 25px;">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-black border-secondary">Date</div>
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Podcast</h5>
+                        <p class="card-text">Insert Podcast with Image</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary">Author:</div>
+                </div>
+            </div>
+            <div class="card-deck float-left" style="padding:25px 10px 10px 25px;">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-black border-secondary">Date</div>
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Podcast</h5>
+                        <p class="card-text">Insert Podcast with Image</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary">Author:</div>
+                </div>
+            </div>
+            <div class="card-deck float-left" style="padding:25px 10px 10px 25px;">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-black border-secondary">Date</div>
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Podcast</h5>
+                        <p class="card-text">Insert Podcast with Image</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary">Author:</div>
+                </div>
+            </div>
+            <div class="card-deck float-left" style="padding:25px 10px 10px 25px;">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-black border-secondary">Date</div>
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Podcast</h5>
+                        <p class="card-text">Insert Podcast with Image</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary">Author:</div>
+                </div>
+            </div>
+            <div class="card-deck float-left" style="padding:25px 10px 10px 25px;">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-black border-secondary">Date</div>
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Podcast</h5>
+                        <p class="card-text">Insert Podcast with Image</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary">Author:</div>
+                </div>
+            </div>
+            <div class="card-deck float-left" style="padding:25px 10px 10px 25px;">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-black border-secondary">Date</div>
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Podcast</h5>
+                        <p class="card-text">Insert Podcast with Image</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary">Author:</div>
+                </div>
+            </div>
+            <div class="card-deck float-left" style="padding:25px 10px 10px 25px;">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-black border-secondary">Date</div>
+                    <div class="card-body text-secondary">
+                        <h5 class="card-title">Podcast</h5>
+                        <p class="card-text">Insert Podcast with Image</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-secondary">Author:</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+<footer class="footerDiv">
+    <p> Worldwide Bud Report &copy 2021</p>
+
+    <!-- Social Media -->
+    <div class="logo">
+        <!-- <img src="assets/images/logo4.jpg"> -->
+        <div class="social responsive">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
         </div>
     </div>
-
-    <!-- Subscribe -->
-
-    <div class="contain1 divWhite">
-        <h2>Subscribe</h2>
-        <div class="line">
-            <div class="contain1"></div>
-        </div>
-    </div>
-    
-    <div class="forms">
-        <h2 style="text-align: center;">Subscribe</h2>
-        <form>
-            <!-- <div class="form-group row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                    <input type="email" readonly class="form-control" id="staticEmail" value="">
-                </div>
-            </div> -->
-
-            <div class="form-group row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                    <input type="password" class="form-control" id="staticEmail" placeholder="Email">
-                </div>
-            </div>
-
-
-            <div class="form-group row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Verify Password</label>
-                <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Verify Password">
-                </div>
-            </div>
-        </form>
-    </div>
-
-</body>
-
-<footer class="uk-sticky footerDiv">
-    Worldwide Bud Report &copy 2021
 
 </footer>
 <script>
     UIkit.video(element, options);
     UIkit.icon(element, options);
+
 </script>
 
 
