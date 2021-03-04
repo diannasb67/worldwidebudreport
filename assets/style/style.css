@@ -191,7 +191,17 @@ h2 {
     margin-left: 25px;
     position: relative;
     border-bottom: 2px solid black;
+    
 }
+
+.lineWhite {
+    height: 0px;
+    width: 250px;
+    margin-left: 25px;
+    position: relative;
+    border-bottom: 2px solid white;
+}
+
 
 .divBlack {
     text-align: left;
