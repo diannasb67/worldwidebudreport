@@ -41,6 +41,10 @@ img {
     padding-right: 20px;
 }
 
+.mobileBanner {
+    display: none;
+}
+
 .title {
     padding: 0px 0 0 50px;
 }
@@ -392,6 +396,14 @@ h2 {
 
 /* Mobile Responsive for medium devices */
 @media (min-width:481px) and (max-width:768px) {
+    
+    .desktopBanner {
+        display: none;
+    }
+
+    .mobileBanner {
+        display:inline-block;
+    }
 
     .headerBanner {
         background-color: white;
@@ -561,6 +573,13 @@ h2 {
 
 @media (max-width: 480px) {
 
+    .desktopBanner {
+        display: none;
+    }
+
+    .mobileBanner {
+        display:inline-block;
+    }
     .headerBanner {
         background-color: white;
         height: 100px;
