@@ -12,3 +12,6 @@ function destroyMask(string) {
     console.log(string)
     return string.replace(/\D/g, '').substring(0, 9);
 }
+
+
+

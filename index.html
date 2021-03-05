@@ -43,6 +43,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Francois+One&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@700;800&display=swap" rel="stylesheet">
 
     <title>Worldwide Bud Report Home</title>
 
@@ -58,9 +60,15 @@
             <li><a href="podcasts.html" class="podcastLink">Recent Podcast</a></li>
             <li><a href="about.html" class="aboutLink">About</a></li>
             <li><a href="subscribe.html" class="subscribeLink">Subscribe</a></li>
-            <li class="uk-active"><a href="profile.html" class="profileLink">Profile</a></li>
+            <li><a href="profile.html" class="profileLink">Create Profile</a></li>
+            <!-- <li><a href="cities.html" class="profileLink">Location</a></li> -->
+            <li>
+                    <form class="uk-search uk-search-default">
+                        <span class="uk-search-icon-flip" uk-search-icon></span>
+                        <input class="uk-search-input" type="search" placeholder="City Search">
+                    </form>
+                </li>
         </ul>
-
     </nav>
     <!-- Mobile Nav -->
     <div class="mobileNav">
@@ -70,11 +78,12 @@
         <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
             <div class="uk-offcanvas-bar uk-flex uk-flex-column">
                 <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-                    <li><a href="index.html" class="homeLink">Home</a></li>
+                    <li class="uk-active"><a href="index.html" class="homeLink">Home</a></li>
                     <li class="uk-active"><a href="podcasts.html" class="podcastLink">Recent Podcast</a></li>
                     <li class="uk-active"><a href="about.html" class="aboutLink">About</a></li>
                     <li class="uk-active"><a href="subscribe.html" class="subscribeLink">Subscribe</a></li>
-                    <li class="uk-active"><a href="profile.html" class="profileLink">Profile</a></li>
+                    <li class="uk-active"><a href="profile.html" class="profileLink">Create Profile</a></li>
+                    <!-- <li class="uk-active"><a href="cities.html" class="profileLink">Cities</a></li> -->
                 </ul>
             </div>
         </div>
@@ -83,17 +92,16 @@
     <!-- Header banner -->
     <div class="contain1 desktopBanner">
         <img src="assets/images/cityscapeColor1.jpg" alt="worldwide bud report" class="logoHeader responsive">
-        <h2 class="wwb" style="text-align: center">Worldwide Bud Report</h2>
-        <!-- <h3>Worldwide Bud Report Home Page</h3> -->
+        <h2 class="wwb world uk-text-uppercase" style="text-align: center">Worldwide Bud Report</h2>
     </div>
 
-      <!-- Mobile Header banner -->
-      <div class="contain1 mobileBanner">
+
+    <!-- Mobile Header banner -->
+    <div class="contain1 mobileBanner">
         <img src="assets/images/cityscapeColorMobile.jpg" alt="worldwide bud report" class="logoHeader responsive">
-        <h2 class="wwb" style="text-align: center">Worldwide Bud Report</h2>
-        <!-- <h3>Worldwide Bud Report Home Page</h3> -->
+        <h2 class="wwb world uk-text-uppercase" style="text-align: center">Worldwide Bud Report</h2>
     </div>
-    
+
 
 
     <!-- New Episodes -->
@@ -236,10 +244,11 @@
     </div>
 
 </footer>
+
+<script src="assets/script/script.js/"></script>
 <script>
     UIkit.video(element, options);
     UIkit.icon(element, options);
-
 </script>
 
 

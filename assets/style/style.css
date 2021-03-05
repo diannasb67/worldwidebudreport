@@ -28,7 +28,7 @@ img {
 }
 
 .logoHeader {
-    padding: 10px 0px 5px 20px;
+    padding: 10px 0px 5px 0px;
 }
 
 .headerBanner h3 {
@@ -40,6 +40,12 @@ img {
 .headerBanner img {
     padding-right: 20px;
 }
+
+
+.world {
+    font-family: 'Eczar', serif;
+}
+
 
 .mobileBanner {
     display: none;
@@ -87,7 +93,7 @@ nav ul {
     display: inline;
     margin-right: -5px;
     float: left;
-    width: 20%;
+    width: 13%;
 }
 
 .mainNav a {
@@ -301,6 +307,7 @@ h2 {
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'DM Serif Display', serif; */
 /* font-family: 'Francois One', sans-serif; */
+/* font-family: 'Eczar', serif; */
 
 
 /* Mobile Responsive for tablet devices */
