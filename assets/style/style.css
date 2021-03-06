@@ -249,6 +249,23 @@ h2 {
     margin: 5% 30% 10% 30%;
 }
 
+/* Podcast */
+.podcastSort, h5, .line {
+color: 	#708090;
+}
+
+
+
+.podcastSort, .line {
+    height: 10px;
+    width: 250px;
+    margin-left: 25px;
+    position: relative;
+    border-bottom: 2px solid #778899;
+    
+}
+
+
 
 /* Footer CSS */
 
