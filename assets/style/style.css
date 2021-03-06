@@ -265,7 +265,11 @@ color: 	#708090;
     
 }
 
+.search {
+    margin-left: 5%;
+    margin-bottom: 5%;
 
+}
 
 /* Footer CSS */
 
@@ -321,6 +325,7 @@ color: 	#708090;
     background: #bb0000;
     color: white;
 }
+
 
 
 /* Google Fonts */
