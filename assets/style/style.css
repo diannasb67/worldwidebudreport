@@ -59,7 +59,7 @@ img {
 }
 
 .title {
-    padding: 0px 0 0 50px;
+    padding: 0px 0 5px 50px;
 }
 
 /* Navbar CSS */
@@ -162,6 +162,16 @@ nav ul {
     overflow: auto;
 }
 
+
+.sort {
+    text-align: left;
+    color: black;
+    padding: 25px 0 0 50px;
+    margin-top: 0px;
+    background-color: white;
+    overflow: auto;
+}
+
 .nav {
     -webkit-justify-content: space-between;
     justify-content: space-between;
@@ -258,6 +268,9 @@ h2 {
     margin: 5% 30% 10% 30%;
 }
 
+/* Bud Reporter Page */
+
+
 /* Podcast */
 .podcastSort,
 h5,
@@ -279,8 +292,11 @@ h5,
 
 .search {
     margin-left: 5%;
-    margin-bottom: 5%;
-
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.recentEpisodes .search {
+    margin-bottom: 10px;
 }
 
 /* Footer CSS */
