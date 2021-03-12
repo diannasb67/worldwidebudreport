@@ -162,6 +162,11 @@ nav ul {
     overflow: auto;
 }
 
+.recentEpisodes li {
+    margin: 0;
+    padding: 0;
+}
+
 
 .sort {
     text-align: left;
@@ -295,8 +300,17 @@ h5,
     margin-bottom: 15px;
     margin-top: 25px;
 }
+
 .recentEpisodes .search {
     margin-bottom: 10px;
+}
+
+.border {
+    color: black;
+    border-bottom: 2px solid black;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    background-color: black;
 }
 
 /* Footer CSS */
@@ -370,6 +384,12 @@ h5,
 
 /* Mobile Responsive for tablet devices */
 @media (min-width:769px) and (max-width:1124px) {
+
+    img {
+        height: 100%;
+        width: auto;
+        padding: 15%;
+    }
 
     .headerBanner {
         background-color: white;
@@ -477,6 +497,12 @@ h5,
 
 /* Mobile Responsive for medium devices */
 @media (min-width:481px) and (max-width:768px) {
+
+    img {
+        height: 100%;
+        width: auto;
+        padding: 15%;
+    }
 
     .contain1,
     .logoHeader {
@@ -661,6 +687,12 @@ h5,
 /* Mobile Responsive for small devices */
 
 @media (max-width: 480px) {
+
+    img {
+        height: 100%;
+        width: auto;
+        padding: 15%;
+    }
 
     .contain1,
     .logoHeader {
