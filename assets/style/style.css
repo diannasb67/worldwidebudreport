@@ -272,6 +272,9 @@ h2 {
     padding-bottom: 5%;
 }
 
+.subscribeHeight {
+    height: 600px;
+}
 
 .forms {
     margin: 5% 30% 10% 30%;
@@ -430,6 +433,7 @@ h5,
         display: inline-block;
         background-position: 0 2px;
         color: white;
+        border-radius: 0 0 20px 20px;
     }
 
 
@@ -549,9 +553,12 @@ h5,
     }
 
     nav {
+        display: none;
+    }
+    /* nav {
         background-color: black;
         height: 10px;
-    }
+    } */
 
     .nav {
         display: none;
@@ -562,6 +569,7 @@ h5,
         background-color: black;
         width: 100%;
         /* padding-bottom: 10px; */
+        border-radius: 0 0 20px 20px;
     }
 
     .mobileNav a {
@@ -573,6 +581,7 @@ h5,
         display: inline-block;
         background-position: 0 2px;
         color: white;
+        
     }
 
     .home .homeLink,
@@ -743,9 +752,13 @@ h5,
         height: auto;
     }
 
-    nav {
+    /* nav {
         background-color: black;
         height: 5px;
+    } */
+
+    nav {
+        display: none;
     }
 
 
@@ -754,6 +767,7 @@ h5,
         background-color: black;
         width: 100%;
         /* padding-bottom: 10px; */
+        border-radius: 0 0 20px 20px;
     }
 
     /* 
@@ -770,6 +784,7 @@ h5,
         display: inline-block;
         background-position: 0 2px;
         color: white;
+        border-radius: 0 0 20px 20px;
     }
 
     .home .homeLink,
