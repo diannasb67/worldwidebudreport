@@ -349,6 +349,7 @@ h5,
     text-transform: uppercase;
     font-family: 'RocknRoll One', sans-serif;
     padding: 20px 20px 20px 20px;
+    border-radius: 20px 20px 0 0;
     left: 0;
     bottom: 0;
     width: 100%;
