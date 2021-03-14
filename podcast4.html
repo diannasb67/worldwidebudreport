@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reset Stylesheet -->
+    <link rel="stylesheet" href="./assets/style/reset.css">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Francois+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@700;800&display=swap" rel="stylesheet">
+
+    <title>Worldwide Bud Report Podcasts</title>
+
+</head>
+
+<main class="podcast">
+
+
+    <!-- Navbar -->
+
+    <nav class="navnav">
+        <ul class="mainNav nav">
+            <li><a href="index.html" class="homeLink">Home</a></li>
+            <li><a href="podcasts.html" class="podcastLink">Podcasts</a></li>
+            <li><a href="about.html" class="aboutLink">About</a></li>
+            <li><a href="subscribe.html" class="subscribeLink">Subscribe</a></li>
+            <li><a href="profile.html" class="profileLink">Become A Bud Reporter!</a></li>
+            <!-- <li><a href="cities.html" class="profileLink">Location</a></li> -->
+            <li>
+                <!-- <form class="uk-search uk-search-default">
+                        <span class="uk-search-icon-flip" uk-search-icon></span>
+                        <input class="uk-search-input" type="search" placeholder="City Search">
+                    </form> -->
+            </li>
+        </ul>
+    </nav>
+    <!-- Mobile Nav -->
+    <div class="mobileNav">
+        <span class="uk-margin-small-right uk-button uk-button-secondary uk-margin-small-right area uk-align-right"
+            style="color:white; background-color: black;" : type="button" uk-toggle="target: #offcanvas-nav-primary"
+            uk-icon="icon: menu; ratio: 2"></span>
+        <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                    <li class="uk-active"><a href="index.html" class="homeLink">Home</a></li>
+                    <li class="uk-active"><a href="podcasts.html" class="podcastLink">Podcasts</a></li>
+                    <li class="uk-active"><a href="about.html" class="aboutLink">About</a></li>
+                    <li class="uk-active"><a href="subscribe.html" class="subscribeLink">Subscribe</a></li>
+                    <li class="uk-active"><a href="profile.html" class="profileLink">Become A Bud Reporter!</a></li>
+                    <!-- <li class="uk-active"><a href="cities.html" class="profileLink">Cities</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header banner -->
+    <div class="contain1 desktopBanner">
+        <img src="assets/images/ocean.jpg" alt="worldwide bud report" class="logoHeader responsive">
+        <h2 class="wwb world uk-text-uppercase" style="text-align: center">Worldwide Bud Report</h2>
+        <!-- <h3>Worldwide Bud Report Home Page</h3> -->
+    </div>
+
+    <!-- Mobile Header banner -->
+    <div class="contain1 mobileBanner">
+        <img src="assets/images/oceanMobile.png " alt="worldwide bud report" class="logoHeader responsive">
+        <h2 class="wwb world uk-text-uppercase" style="text-align: center">Worldwide Bud Report</h2>
+        <!-- <h3>Worldwide Bud Report Home Page</h3> -->
+    </div>
+
+
+    <div class="">
+        <h2 class="title">Podcasts</h2>
+        <div class="line"></div>
+    </div>
+
+    <!-- Search Bar -->
+
+    <!-- <form class="uk-search uk-search-default search">
+                      <span class="uk-search-icon-flip" uk-search-icon></span>
+                      <input class="uk-search-input" type="search" placeholder="Search">
+                  </form> -->
+    <!-- Recent Episodes -->
+
+    <!-- Begin Episode Sort -->
+    <div>
+        <div class="sort">
+            <h5 class="podcastsSort">Podcasts (Sort by Episode)</h5>
+            <div class="line"></div>
+            <form class="uk-search uk-search-default search">
+                <span class="uk-search-icon-flip" uk-search-icon></span>
+                <input class="uk-search-input" type="search" placeholder="Episode #">
+            </form>
+        </div>
+
+        <div class="recentEpisodes">
+            <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid-small">
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar"
+                                            src="assets/images/worldwide-bud-report-100px.jpg" width="80" height="80"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Episode #1</a></h4>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12 days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Listen</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                    takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar"
+                                            src="assets/images/worldwide-bud-report-100px.jpg" width="80" height="80"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Episode #2</a></h4>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12 days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Listen</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                    takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar"
+                                            src="assets/images/worldwide-bud-report-100px.jpg" width="80" height="80"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Episode #3</a></h4>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12
+                                                days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Listen</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                    accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                    sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar"
+                                            src="assets/images/worldwide-bud-report-100px.jpg" width="80" height="80"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Episode #3</a></h4>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12
+                                                days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Listen</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                    accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                    sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar"
+                                            src="assets/images/worldwide-bud-report-100px.jpg" width="80" height="80"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Episode #4</a></h4>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12
+                                                days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Listen</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                    accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                    sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+            <div class="border"></div>
+        </div>
+    </div>
+    <!-- End first row - episode sort -->
+
+
+    <!-- Begin Country sort -->
+    <div>
+
+        <div class="sort">
+            <h5 class="podcastsSort">Podcasts (Sort by Country)</h5>
+            <div class="line"></div>
+            <form class="uk-search uk-search-default search">
+                <span class="uk-search-icon-flip" uk-search-icon></span>
+                <input class="uk-search-input" type="search" placeholder="Country">
+            </form>
+        </div>
+
+        <div class="recentEpisodes">
+            <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid-small">
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar"
+                                            src="assets/images/worldwide-bud-report-100px.jpg" width="80" height="80"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Country</a></h4>
+                                        <h5 class="uk-text-small"><a class="uk-link-reset" href="#">Episode #1</a></h5>
+
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12
+                                                days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Listen</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                    takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar"
+                                            src="assets/images/worldwide-bud-report-100px.jpg" width="80" height="80"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Country</a></h4>
+                                        <h5 class="uk-text-small"><a class="uk-link-reset" href="#">Episode #2</a></h5>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12
+                                                days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Listen</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                    takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar"
+                                            src="assets/images/worldwide-bud-report-100px.jpg" width="80" height="80"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Country</a></h4>
+                                        <h5 class="uk-text-small"><a class="uk-link-reset" href="#">Episode #3</a></h5>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12
+                                                days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Listen</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                    accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                    sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar"
+                                            src="assets/images/worldwide-bud-report-100px.jpg" width="80" height="80"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Country</a></h4>
+                                        <h5 class="uk-text-small"><a class="uk-link-reset" href="#">Episode #4</a></h5>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12
+                                                days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Listen</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                    accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                    sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                            <header class="uk-comment-header uk-position-relative">
+                                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-comment-avatar"
+                                            src="assets/images/worldwide-bud-report-100px.jpg" width="80" height="80"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                                href="#">Country</a></h4>
+                                        <h5 class="uk-text-small"><a class="uk-link-reset" href="#">Episode #5</a></h5>
+                                        <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
+                                                href="#">12
+                                                days ago</a></p>
+                                    </div>
+                                </div>
+                                <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                        class="uk-link-muted" href="#">Listen</a></div>
+                            </header>
+                            <div class="uk-comment-body">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                    accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                    sanctus est Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+                <a class="uk-slidenav-large uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous
+                    uk-slideshow-item="previous"></a>
+                <a class="uk-slidenav-large uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next
+                    uk-slideshow-item="next"></a>
+            </div>
+            <div class="border"></div>
+        </div>
+    </div>
+    <!-- End Country Sort-->
+
+    <!-- Begin Podcaster sort -->
+
+    <div class="sort">
+        <h5 class="podcastsSort">Podcasts (Sort by Podcaster Name)</h5>
+        <div class="line"></div>
+        <form class="uk-search uk-search-default search">
+            <span class="uk-search-icon-flip" uk-search-icon></span>
+            <input class="uk-search-input" type="search" placeholder="Podcaster Name">
+        </form>
+    </div>
+
+    <div class="recentEpisodes">
+        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
+            <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid-small">
+                <li>
+                    <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                        <header class="uk-comment-header uk-position-relative">
+                            <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-comment-avatar" src="assets/images/worldwide-bud-report-100px.jpg"
+                                        width="80" height="80" alt="">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                            href="#">Podcaster</a></h4>
+                                    <h5 class="uk-text-small"><a class="uk-link-reset" href="#">Episode #1</a></h5>
+
+                                    <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12
+                                            days ago</a></p>
+                                </div>
+                            </div>
+                            <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                    class="uk-link-muted" href="#">Listen</a></div>
+                        </header>
+                        <div class="uk-comment-body">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                        <header class="uk-comment-header uk-position-relative">
+                            <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-comment-avatar" src="assets/images/worldwide-bud-report-100px.jpg"
+                                        width="80" height="80" alt="">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                            href="#">Podcaster</a></h4>
+                                    <h5 class="uk-text-small"><a class="uk-link-reset" href="#">Episode #2</a></h5>
+                                    <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12
+                                            days ago</a></p>
+                                </div>
+                            </div>
+                            <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                    class="uk-link-muted" href="#">Listen to Episode</a></div>
+                        </header>
+                        <div class="uk-comment-body">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                                takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                        <header class="uk-comment-header uk-position-relative">
+                            <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-comment-avatar" src="assets/images/worldwide-bud-report-100px.jpg"
+                                        width="80" height="80" alt="">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                            href="#">Podcaster</a></h4>
+                                    <h5 class="uk-text-small"><a class="uk-link-reset" href="#">Episode #3</a></h5>
+                                    <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12
+                                            days ago</a></p>
+                                </div>
+                            </div>
+                            <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                    class="uk-link-muted" href="#">Listen</a></div>
+                        </header>
+                        <div class="uk-comment-body">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                        <header class="uk-comment-header uk-position-relative">
+                            <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-comment-avatar" src="assets/images/worldwide-bud-report-100px.jpg"
+                                        width="80" height="80" alt="">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                            href="#">Podcaster</a></h4>
+                                    <h5 class="uk-text-small"><a class="uk-link-reset" href="#">Episode #4</a></h5>
+                                    <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12
+                                            days ago</a></p>
+                                </div>
+                            </div>
+                            <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                    class="uk-link-muted" href="#">Listen</a></div>
+                        </header>
+                        <div class="uk-comment-body">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                        <header class="uk-comment-header uk-position-relative">
+                            <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-comment-avatar" src="assets/images/worldwide-bud-report-100px.jpg"
+                                        width="80" height="80" alt="">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
+                                            href="#">Podcaster</a></h4>
+                                    <h5 class="uk-text-small"><a class="uk-link-reset" href="#">Episode #5</a></h5>
+                                    <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12
+                                            days ago</a></p>
+                                </div>
+                            </div>
+                            <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a
+                                    class="uk-link-muted" href="#">Listen</a></div>
+                        </header>
+                        <div class="uk-comment-body">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <div class="border"></div>
+        </div>
+    </div>
+    </div>
+    <!-- End Podcaster Sort-->
+
+    <!-- Begin New Card Style -->
+    <!-- Slider -->
+
+    <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
+        <ul class="uk-slider-items uk-child-width-1-3@s uk-child-width-1-4@ uk-grid-small">
+            <li>
+                <div class="uk-card uk-card-hover uk-card-small uk-card-default uk-small test">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40"
+                                    src="assets/images/worldwide-bud-report-100px.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Podcast Name</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Episode
+                                        #</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-text">Listen Now</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-hover uk-card-small uk-card-default uk-small test">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40"
+                                    src="assets/images/worldwide-bud-report-100px.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Podcast Name</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Episode
+                                        #</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-text">Listen Now</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-hover uk-card-small uk-card-default uk-small test">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40"
+                                    src="assets/images/worldwide-bud-report-100px.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Podcast Name</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Episode
+                                        #</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-text">Listen Now</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-hover uk-card-small uk-card-default uk-small test">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40"
+                                    src="assets/images/worldwide-bud-report-100px.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Podcast Name</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Episode
+                                        #</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-text">Listen Now</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-hover uk-card-small uk-card-default uk-small test">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40"
+                                    src="assets/images/worldwide-bud-report-100px.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Podcast Name</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Episode
+                                        #</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-text">Listen Now</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+        
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    </div>
+
+
+</main>
+<footer class="footerDiv">
+    <p> Worldwide Bud Report &copy 2021</p>
+
+    <!-- Social Media -->
+    <div class="logo">
+        <!-- <img src="assets/images/logo4.jpg"> -->
+        <div class="social responsive">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/worldwidebudreport" class="fa fa-instagram" target="_blank"></a>
+        </div>
+    </div>
+
+</footer>
+
+<script>
+    UIkit.slider(element, options);
+</script>
+
+
+</html>
