@@ -325,8 +325,18 @@ h2 {
     
 }
 
+.podcastsSort:hover {
+    color: black;
+}
 .sort a:hover {
     color: black;
+}
+
+
+.podcastSort, li {
+    display: block;
+    float: left;
+    padding: 10px;
 }
 
 .podcastSort,
@@ -695,6 +705,10 @@ article {
         height: 650px;
     }
 
+    .podcastsSort {
+        line-height: 2em;
+        font-size: 1em;
+    }
 
     .podcasts {
         height: 650px;
@@ -920,6 +934,23 @@ article {
 
     h2 {
         font-size: 1.50em;
+    }
+
+    .podcastsSort, li {
+        padding: 2px;
+    }
+    .podcastsSort {
+        display: inline-block;
+        font-size: .75em;
+        line-height: 2em;
+    }
+
+    .podcastsSort, h5 {
+        font-size: 1em;
+    }
+    .search {
+        padding: 0;
+        margin-left: 20px;
     }
   
 
