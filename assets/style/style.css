@@ -326,7 +326,7 @@ h2 {
 }
 
 .sort a:hover {
-    color: #37a233;
+    color: black;
 }
 
 .podcastSort,
@@ -345,6 +345,7 @@ article {
 
 .test {
     margin: 20px 20px 20px 50px;
+    box-shadow: 10px 10px 8px #888888
 }
 /* End Comment style on podcast2 page */
 
@@ -750,8 +751,6 @@ article {
         font-size: 1.75em;
     }
 
-
-
 }
 
 /* Mobile Responsive for small devices */
@@ -922,6 +921,6 @@ article {
     h2 {
         font-size: 1.50em;
     }
-
+  
 
 }
